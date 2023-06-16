@@ -1,0 +1,124 @@
+body{
+    color: white;
+    background-image:url(/Imagens/fundo-azul.avif);
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom; 
+      }
+      
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#linguagem{position:relative;
+            width: 150px;
+            height:150px;
+        }
+#linguagem:hover{top:-2px;box-shadow:0 2px 2px #205fdc}
+#linguagem{position:relative;top:0}
+#linguagem:hover{top:-4px;box-shadow:0 4px 4px #0c09b7;
+   transition: all .2s ease-in-out}
+
+
+   #automacao{position:relative;
+    width: 150px;
+    height:150px;
+}
+#automacao:hover{top:-2px;box-shadow:0 2px 2px #205fdc}
+#automacao{position:relative;top:0}
+#automacao:hover{top:-4px;box-shadow:0 4px 4px #0c09b7;
+transition: all .2s ease-in-out}
+
+
+#redes{position:relative;
+    width: 150px;
+    height:150px;
+}
+#redes:hover{top:-2px;box-shadow:0 2px 2px #205fdc}
+#redes{position:relative;top:0}
+#redes:hover{top:-4px;box-shadow:0 4px 4px #0c09b7;
+transition: all .2s ease-in-out}
+
+
+#banco{position:relative;
+    width: 150px;
+    height:150px;
+}
+#banco:hover{top:-2px;box-shadow:0 2px 2px #205fdc}
+#banco{position:relative;top:0}
+#banco:hover{top:-4px;box-shadow:0 4px 4px #0c09b7;
+transition: all .2s ease-in-out}
+
+
+#ciencia{position:relative;
+    width: 150px;
+    height:150px;
+}
+#ciencia:hover{top:-2px;box-shadow:0 2px 2px #205fdc}
+#ciencia{position:relative;top:0}
+#ciencia:hover{top:-4px;box-shadow:0 4px 4px #0c09b7;
+transition: all .2s ease-in-out}
+
+header {
+    display: flex;
+    background-color: #2f54c200; 
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(18, 120, 189);
+    align-items: center;
+}
+header p {
+    margin-left: 250px;
+}
+
+.IconSENAI{
+    justify-content: flex-start;
+    
+}
+
+.casa{
+    margin-left: 300px;
+}
+
+.cabecalho{
+    
+    background-color: #2f54c200; 
+    font-size: 17px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+
+.introducao{
+    text-align: center;
+    display flex: ;
+    background-color: #2f54c200; 
+    padding: 10px;
+    font-size: 21px;
+    padding-bottom: px;
+    margin-top: 40px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row ;
+    margin-top: 50px;
+}
+
+
+.geral{
+    justify-content: space-around;
+    list-style: none;
+    flex-direction: row ;
+    margin-top: 50px;
+    left: 30px;
+}
+
